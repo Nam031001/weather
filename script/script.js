@@ -20,6 +20,9 @@ const success = (position) => {
   getWeather(latitude, longitude);
 };
 
+
+const API_KEY = 'd399bb539b9cfd6d01c40c127f04881c';
+
 const getWeather = (lat, lon) => {
   fetch(
     `https://api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${lon}&appid=${API_KEY}&units=metric&lang=kr`
@@ -27,4 +30,4 @@ const getWeather = (lat, lon) => {
 };
 //위치 좌표 값 받아오기
 
-const API_KEY = 'd399bb539b9cfd6d01c40c127f04881c';
+
