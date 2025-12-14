@@ -27,4 +27,4 @@ const getWeather = (lat, lon) => {
 };
 //위치 좌표 값 받아오기
 
-const API_KEY = 'KEY값';
+const API_KEY = 'd399bb539b9cfd6d01c40c127f04881c';
